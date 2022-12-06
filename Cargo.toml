@@ -9,7 +9,7 @@ keywords = ["veruna", "data"]
 repository = "https://github.com/averichev/veruna-data"
 
 [dependencies]
-veruna-kernel = { version = "1.1.12" }
+veruna-kernel = { path = "../veruna-kernel" }
 shaku = { version = "0.6.*" }
 sea-orm = { version = "^0", features = [
     "sqlx-sqlite",
