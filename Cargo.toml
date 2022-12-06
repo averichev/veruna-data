@@ -2,6 +2,11 @@
 name = "veruna-data"
 version = "0.1.0"
 edition = "2021"
+description = "Data module for Veruna project"
+license = "MIT OR Apache-2.0"
+authors = ["Alexander Averichev <averichev@yandex.ru>"]
+keywords = ["veruna", "data"]
+repository = "https://github.com/averichev/veruna-data"
 
 [dependencies]
 veruna-kernel = { version = "1.1.12" }
