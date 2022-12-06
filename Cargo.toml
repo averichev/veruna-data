@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-veruna-kernel = { version = "1.1.11" }
+veruna-kernel = { version = "1.1.12" }
 shaku = { version = "0.6.*" }
 sea-orm = { version = "^0", features = [
     "sqlx-sqlite",
