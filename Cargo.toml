@@ -1,0 +1,14 @@
+[package]
+name = "veruna-data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+veruna-kernel = { version = "1.1.11" }
+shaku = { version = "0.6.*" }
+sea-orm = { version = "^0", features = [
+    "sqlx-sqlite",
+    "runtime-tokio-native-tls",
+    "macros",
+    "debug-print"
+], default-features = false }
