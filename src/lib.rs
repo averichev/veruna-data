@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use veruna_kernel::sites::{Site, SiteId, SiteIdBuilder, SiteIdBuilderImpl, SiteReadOption, SiteRepository as SiteRepositoryContract};
+use veruna_kernel::sites::{Site, SiteId, SiteIdBuilderImpl, SiteReadOption, SiteRepository as SiteRepositoryContract};
 
 pub struct SiteRepository {
     sites: HashMap<u8, Box<dyn Site>>,
