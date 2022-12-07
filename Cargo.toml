@@ -10,7 +10,6 @@ repository = "https://github.com/averichev/veruna-data"
 
 [dependencies]
 veruna-kernel = { path = "../veruna-kernel" }
-shaku = { version = "0.6.*" }
 sea-orm = { version = "^0", features = [
     "sqlx-sqlite",
     "runtime-tokio-native-tls",
